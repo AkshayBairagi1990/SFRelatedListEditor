@@ -156,6 +156,9 @@ public class RelatedListDataGridControllerTest {
         opp.put('StageName', 'Sourcing Demand');
         opp.put('CloseDate', System.today());
         opp.put('AccountId', acc.Id);
+	/*    
+	opp.put('Leading_REC__c', acc.Id);
+		    
         insert opp;        
 
         FieldSetUtils.setMock( new List<SObjectField> { Opportunity.Amount, Opportunity.Name }, 
@@ -170,7 +173,7 @@ public class RelatedListDataGridControllerTest {
                                                            null);
         
         System.assert(opportunityList != null);
-        
+        */
         Test.stopTest();
     }
 }
